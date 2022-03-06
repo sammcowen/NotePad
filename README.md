@@ -6,7 +6,9 @@
   
 -[Licensing](#Licensing)
 
--[Description](#description)
+-[Description](#Description)
+
+-[Demo & Link](#Demo & Link)
 
 -[Installation](#Installation)
 
@@ -27,7 +29,11 @@
   ## Description
 
   NotePad is an application that allows users to CREATE, READ, UPDATE AND DELETE notes! I built the server and the back-end logic (home and api routes, back end JS,) for this application and connected the two of them together using express.JS
-
+  
+  ## Demo & Link
+  
+  ![Note Taker](https://user-images.githubusercontent.com/92121595/156909439-887c9cda-171c-4c47-8499-f865e6c4db92.gif)
+   [Click here for Deployed Link](https://serene-temple-34885.herokuapp.com/)
   ## Installation
   Follow these steps to properly install this application:
 
