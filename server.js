@@ -2,9 +2,9 @@ const express = require('express');
 
 const fs = require('fs');
 
-const htmlroutes = require('./routes/htmlroutes/index');
+const htmlroutes = require('./routes/htmlroutes');
 
-const apiroutes = require('./routes/apiroutes/notesroute');
+const apiroutes = require('./routes/apiroutes');
 
 const path = require('path');
 

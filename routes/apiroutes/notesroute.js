@@ -1,24 +1,23 @@
 const router = require('express').Router();
 
-const uniqid = require('uniqid');
-
 const {
      notes
-    } = require('../../db/db.json');
-
-const{
-    createNewNote,
+    } = require('../../db/db');
+const {
+    createNewNote, 
     deleteNote
-}  = require('../../lib/notesFunctions');
+} = require('../../lib/notesFunctions');
+
 
 // api route that gets and reads notes and returns them as JSON
 router.get('/notes', (req, res) => {
-    res.json(notes);
+    let saved = notes;
+    res.json(saved);
 });
 // api route that receives note on thereq body, adds to the db.json,returns new note
 router.post('/notes', (req,res) => {
-    req.body.id = uniqid();
-    const note = createNewNote(req.body, notes);
+    req.body.id = notes.length.toString();
+    let note = createNewNote(req.body, notes);
     res.json(note);
 });
 
