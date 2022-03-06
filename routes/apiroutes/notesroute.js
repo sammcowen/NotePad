@@ -20,7 +20,7 @@ router.post('/notes', (req,res) => {
     let note = createNewNote(req.body, notes);
     res.json(note);
 });
-
+// bonus route for deletions of notes
 router.delete('/notes/:id', (req,res) => {
     deleteNote(notes, req.params.id);
     res.json(notes);

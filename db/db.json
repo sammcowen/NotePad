@@ -1,3 +1,14 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "title": "Practice BE JS",
+      "text": "practice writing back end javascript !",
+      "id": "0"
+    },
+    {
+      "title": "Night time routine",
+      "text": "Bathe kids. Read bedtime story. Get myself ready for bed.",
+      "id": "1"
+    }
+  ]
 }
