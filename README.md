@@ -8,7 +8,7 @@
 
 -[Description](#Description)
 
--[Demo & Link](#Demo & Link)
+-[Demo/Link](#Demo/Link)
 
 -[Installation](#Installation)
 
