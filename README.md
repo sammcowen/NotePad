@@ -33,6 +33,7 @@
   ## Demo & Link
   
   ![Note Taker](https://user-images.githubusercontent.com/92121595/156909439-887c9cda-171c-4c47-8499-f865e6c4db92.gif)
+  
    [Click here for Deployed Link](https://serene-temple-34885.herokuapp.com/)
   ## Installation
   Follow these steps to properly install this application:
