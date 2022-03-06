@@ -8,7 +8,7 @@
 
 -[Description](#Description)
 
--[Demo/Link](#Demo/Link)
+-[Demo](#Demo)
 
 -[Installation](#Installation)
 
@@ -30,7 +30,7 @@
 
   NotePad is an application that allows users to CREATE, READ, UPDATE AND DELETE notes! I built the server and the back-end logic (home and api routes, back end JS,) for this application and connected the two of them together using express.JS
   
-  ## Demo/Link
+  ## Demo
   
   ![Note Taker](https://user-images.githubusercontent.com/92121595/156909439-887c9cda-171c-4c47-8499-f865e6c4db92.gif)
   
